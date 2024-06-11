@@ -13,12 +13,12 @@ But Breeze ID will perform great in any other context too. These are just its st
 
 ## Install
 ```
-npm i @tzwel/breezeid
+npm i breezeid
 ```
 
 ## Use
 ```javascript
-const { breezeid } = require('@tzwel/breezeid') // or { BreezeID }
+const { breezeid } = require('breezeid') // or { BreezeID }
 
 // Get ID of default (16) length
 breezeid() // => 9NU6-XQLZ-BDIH-6HKE
