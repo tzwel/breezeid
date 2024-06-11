@@ -1,4 +1,4 @@
-# Breeze ID
+# 🍃 Breeze ID
 **Easily generate human-first IDs**
 
 Breeze ID is a library that generates unique IDs of any length meant to be easily communicated via speech, that contain no profanities and consist of unambigous characters that can be read easily. Breeze ID's goal is to eliminate human error and still be cryptographically secure.
