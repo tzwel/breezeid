@@ -1,4 +1,4 @@
-const { get } = require('./index')
+const { BreezeID } = require('./index')
 
 const ids = []
 

@@ -7,7 +7,7 @@ function hasProfanity(input) {
 	return profanities.some(function(v) { return input.toLowerCase().indexOf(v) >= 0; })
 }
 
-function get(length = 4 * 4) {
+function breezeid(length = 4 * 4) {
 	return insertHyphens(genChars(length))
 }
 
@@ -42,4 +42,4 @@ function insertHyphens(input, every = 4, joinBy = '-') {
 	return result.join(joinBy)
 }
 
-module.exports = { get }
+module.exports = { breezeid, BreezeID:breezeid };

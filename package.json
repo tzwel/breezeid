@@ -1,0 +1,27 @@
+{
+  "name": "breezeid",
+  "version": "1.0.0",
+  "description": "Easily generate human-first IDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzwel/BreezeID.git"
+  },
+  "keywords": [
+    "id",
+    "id",
+    "generator",
+    "breeze",
+    "breezeid",
+    "ids"
+  ],
+  "author": "Tzwel",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tzwel/BreezeID/issues"
+  },
+  "homepage": "https://github.com/tzwel/BreezeID#readme"
+}

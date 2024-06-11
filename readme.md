@@ -11,6 +11,25 @@ Breeze ID is best used wherever your IDs:
 
 But Breeze ID will perform great in any other context too. These are just its strong parts.
 
+## Install
+```
+npm i breezeid
+```
+
+## Use
+```javascript
+const { breezeid } = require('breezeid') // or { BreezeID }
+
+// Get ID of default (16) length
+breezeid() // => 9NU6-XQLZ-BDIH-6HKE
+
+// Specify custom length (excluding hyphens):
+breezeid(8) // => Q228-VQUR
+
+```
+
+### Breeze ID is
+
 ## For humans
 Breeze ID uses an alphabet carefully designed to be easily read and said.
 
@@ -22,9 +41,9 @@ The characters used are unambigous, meaning they can't be confused between each 
 
 Breeze ID also blocks profanities by default. It uses an efficient algorithm that at first tries to regenerate the detected profane part of an ID (this succeeds almost every time). However, if it generates another profanity, the profane part is just reversed to omit unecessary calls to the OS. This makes Breeze ID completely **profanity free**.
 
-## Uniqueness
+## Unique
 Breeze ID uses `crypto.randomBytes` internally, meaning you get cryptographically secure entropy from your OS.
 The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exatly 32 characters.
 
-## URL safety
+## URL safe
 BreezeID is completely safe to use in URLs. No need for any encoding, it's built in. 
