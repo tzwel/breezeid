@@ -1,6 +1,6 @@
 {
   "name": "breezeid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily generate human-first IDs",
   "main": "index.js",
   "scripts": {
