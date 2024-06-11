@@ -1,5 +1,5 @@
 {
-  "name": "breezeid",
+  "name": "@tzwel/breezeid",
   "version": "1.0.0",
   "description": "Easily generate human-first IDs",
   "main": "index.js",
