@@ -40,7 +40,7 @@ Breeze ID uses an alphabet carefully designed to be easily read and said.
 
 Here's an example ID: `WQYW-3AWT-X4R2-97KC`. (Notice the uppercasing. It's intentional as I find them easier to read and the alphabet was designed with them in mind, but lowercasing the IDs surely makes them look better. Go with whatever you want.)
 
-Breeze Id automatically inserts hyphens every four characters for easier reading.
+Breeze ID automatically inserts hyphens every four characters for easier reading.
 
 The characters used are unambigous, meaning they can't be confused between each other. For example, `1` could be confused with `I`, so `1` is absent from the alphabet.
 
