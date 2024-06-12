@@ -48,7 +48,7 @@ Breeze ID also blocks profanities by default. It uses an efficient algorithm tha
 
 ## Unique
 Breeze ID uses `crypto.randomBytes` internally, meaning you get cryptographically secure entropy from your OS.
-The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exatly 32 characters.
+The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exactly 32 characters.
 
 ## URL safe
 BreezeID is completely safe to use in URLs. No need for any encoding, it's built in. 
