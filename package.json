@@ -1,8 +1,8 @@
 {
   "name": "breezeid",
-  "version": "1.0.1",
-  "description": "Easily generate human-first IDs",
-  "main": "index.js",
+  "version": "1.2.0",
+  "description": "Easily generate unique, human-first IDs",
+  "main": "breezeid.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

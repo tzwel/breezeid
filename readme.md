@@ -1,5 +1,5 @@
 # 🍃 Breeze ID
-**Easily generate human-first IDs**
+**Easily generate unique, human-first IDs**
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/tzwel/breezeid?style=flat&logo=Github&label=Star%20on%20Github&color=0e8c16)](https://github.com/tzwel/breezeid)
 <a href="https://ko-fi.com/tzwel">
@@ -51,4 +51,7 @@ Breeze ID uses `crypto.randomBytes` internally, meaning you get cryptographicall
 The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exatly 32 characters.
 
 ## URL safe
-BreezeID is completely safe to use in URLs. No need for any encoding, it's built in. 
+Breeze ID is completely safe to use in URLs. No need for any encoding, it's built in. 
+
+## Performant
+Breeze ID doesn't make unnecessary calls for entropy to your OS every time you generate an ID. Instead, it asks for entropy in big batches only when it needs to.
