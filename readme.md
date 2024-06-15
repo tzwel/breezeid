@@ -40,7 +40,7 @@ Breeze ID uses an alphabet carefully designed to be easily read and said.
 
 Here's an example ID: `WQYW-3AWT-X4R2-97KC`. (Notice the uppercasing. It's intentional as I find them easier to read and the alphabet was designed with them in mind, but lowercasing the IDs surely makes them look better. Go with whatever you want.)
 
-Breeze Id automatically inserts hyphens every four characters for easier reading.
+Breeze ID automatically inserts hyphens every four characters for easier reading.
 
 The characters used are unambigous, meaning they can't be confused between each other. For example, `1` could be confused with `I`, so `1` is absent from the alphabet.
 
@@ -48,7 +48,7 @@ Breeze ID also blocks profanities by default. It uses an efficient algorithm tha
 
 ## Unique
 Breeze ID uses `crypto.randomBytes` internally, meaning you get cryptographically secure entropy from your OS.
-The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exatly 32 characters.
+The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exactly 32 characters.
 
 ## URL safe
 Breeze ID is completely safe to use in URLs. No need for any encoding, it's built in. 
