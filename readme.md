@@ -1,9 +1,10 @@
 # 🍃 Breeze ID
 **Easily generate unique, human-first IDs**
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/tzwel/breezeid?style=flat&logo=Github&label=Star%20on%20Github&color=0e8c16)](https://github.com/tzwel/breezeid)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tzwel/breezeid?style=for-the-badge&logo=Github&label=Star%20on%20Github&color=0e8c16)](https://github.com/tzwel/breezeid)
+[![npm](https://img.shields.io/badge/npm-cb3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/breezeid)
 <a href="https://ko-fi.com/tzwel">
-  <img src="https://img.shields.io/badge/support%20me%20on-ko--fi-pink?logo=ko-fi&logoColor=pink&logoWidth=20&style=flat"/>
+  <img src="https://img.shields.io/badge/support%20me%20on-ko--fi-pink?logo=ko-fi&logoColor=pink&logoWidth=20&style=for-the-badge"/>
 </a>
 
 Breeze ID is a library that generates unique IDs of any length meant to be easily communicated via speech, that contain no profanities and consist of unambigous characters that can be read easily. Breeze ID's goal is to eliminate human error and still be cryptographically secure.
