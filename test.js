@@ -29,7 +29,7 @@
 
 
 
-const profanities = ['fuck', 'boob', 'spit', 'suck', 'cum', "5h1t", "5hit", "anus", "arse", "cock", "clit", "cunt", "dick", "nigg", "gays", "kike", "hell", "homo", "nips", "peni5", "piss", "slut", "slop", 'yaoi', 'yiff', 'jerk', 'bewb', 'n1gg', 'thug', 'lgbt', 'dupa', 'nazi', 'oral', 'anal', 'poop', 'scat', 'sexy', 'scum', 'smut', ' tits', 'twat', 'rape', 'jerk', 'fagg', 'turd', 'spic', 'kike', 'porn', 'lube',"0rgasm","1d10t","1d1ot","1di0t","1diot","1mbec11e","1mbec1le","1mbeci1e","1mbecile","ah01e","ah0le","aho1e","ahole","ana1","anal","anus","arse","b00b","b0ob","b1tch","bitch","bo0b","boob","c0ck","c11t","c1it","ch1nk","chink","cl1t","clit","cock","cracker","crap","cum","cunt","d11d0","d11do","d1ck","d1ld0","d1ldo","damn","di1d0","di1do","dick","dild0","dildo","dyke","enema","fag","fuck","id10t","id1ot","idi0t","idiot","imbec11e","imbec1le","imbeci1e","imbecile","j1zz","jerk","jizz","k1ke","kike","masturbat10n","masturbat1on","masturbate","masturbati0n","masturbation","n1gger","negr0","negro","nigger","orgasm","p00p","p0op","p0rn","pen1s","penis","po0p","poop","porn","pr1ck","prick","pussy","rape","retard","s1ut","sexy","sh1t","shit","slut","stup1d","stupid","sucker","test1c1e","test1cle","testic1e","testicle","turd","twat","vag1na","vagina","wank"]
+// const profanities = ['fuck', 'boob', 'spit', 'suck', 'cum', "5h1t", "5hit", "anus", "arse", "cock", "clit", "cunt", "dick", "nigg", "gays", "kike", "hell", "homo", "nips", "peni5", "piss", "slut", "slop", 'yaoi', 'yiff', 'jerk', 'bewb', 'n1gg', 'thug', 'lgbt', 'dupa', 'nazi', 'oral', 'anal', 'poop', 'scat', 'sexy', 'scum', 'smut', ' tits', 'twat', 'rape', 'jerk', 'fagg', 'turd', 'spic', 'kike', 'porn', 'lube',"0rgasm","1d10t","1d1ot","1di0t","1diot","1mbec11e","1mbec1le","1mbeci1e","1mbecile","ah01e","ah0le","aho1e","ahole","ana1","anal","anus","arse","b00b","b0ob","b1tch","bitch","bo0b","boob","c0ck","c11t","c1it","ch1nk","chink","cl1t","clit","cock","cracker","crap","cum","cunt","d11d0","d11do","d1ck","d1ld0","d1ldo","damn","di1d0","di1do","dick","dild0","dildo","dyke","enema","fag","fuck","id10t","id1ot","idi0t","idiot","imbec11e","imbec1le","imbeci1e","imbecile","j1zz","jerk","jizz","k1ke","kike","masturbat10n","masturbat1on","masturbate","masturbati0n","masturbation","n1gger","negr0","negro","nigger","orgasm","p00p","p0op","p0rn","pen1s","penis","po0p","poop","porn","pr1ck","prick","pussy","rape","retard","s1ut","sexy","sh1t","shit","slut","stup1d","stupid","sucker","test1c1e","test1cle","testic1e","testicle","turd","twat","vag1na","vagina","wank"]
 
 const { breezeid } = require('./breezeid');
 
@@ -56,9 +56,21 @@ const { breezeid } = require('./breezeid');
 // 	)
 // }
 
-for (let index = 0; index < 2200; index++) {
-	const id = breezeid(127)
-	if (id.includes('n')) {
-		console.log(index, id);
-	}
-}
+// console.log(test);
+
+// for (let index = 0; index < 2200; index++) {
+// 	const id = breezeid(127)
+// 	if (id.includes('n')) {
+// 		console.log(index, id);
+// 	}
+// }
+
+console.log(
+	breezeid(5)
+);
+console.log(
+	breezeid(5)
+);
+console.log(
+	breezeid(5)
+);

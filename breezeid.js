@@ -1,10 +1,9 @@
 const crypto = require('node:crypto')
 const charset = 'AEIUQWTYPSDFGRHJKLZXCVBNM2346789'
-
-const profanities = ['fuck', 'boob', 'spit', 'suck', 'cum', "5h1t", "5hit", "anus", "arse", "cock", "clit", "cunt", "dick", "nigg", "gays", "kike", "hell", "homo", "nips", "peni5", "piss", "slut", "slop", 'yaoi', 'yiff', 'jerk', 'bewb', 'n1gg', 'thug', 'lgbt', 'dupa', 'nazi', 'oral', 'anal', 'poop', 'scat', 'sexy', 'scum', 'smut', ' tits', 'twat', 'rape', 'jerk', 'fagg', 'turd', 'spic', 'kike', 'porn', 'lube', 'ass', 'fag', 'jizz', 'shit', 'dyke', 'wank', 'damn', 'crap', 'cuck', 'pawg']
+const { profanities } = require('./profanities')
 
 const poolSize = 16 * 8 // default id length * 8 = 128
-let pool = []
+let pool;
 let poolIndex = 0
 
 fillPool()
