@@ -47,6 +47,12 @@ The characters used are unambigous, meaning they can't be confused between each 
 Breeze ID also blocks profanities by default. It uses an efficient algorithm that at first tries to regenerate the detected profane part of an ID (this succeeds almost every time). However, if it generates another profanity, the profane part is just reversed to omit unecessary calls to the OS. This makes Breeze ID completely **profanity free**.
 
 ## Unique
+### Collisions
+You would need to generate 156 *billion* IDs with default settings to reach 1% probability of collision.If you were to generate 1000 IDs every hour non-stop, it would take you ~18 thousand years. 
+
+But these numbers can still be improved - if you generate Breeze IDs of `24` length, reaching 1% probability of collision while generating 1000 ids per **second** would take ~5 **million** years. If you were to care about 50% probability (which is common when testing random ID generating libraries), this would be ~43 million years.
+
+### Entropy
 Breeze ID uses `crypto.randomBytes` internally, meaning you get cryptographically secure entropy from your OS.
 The characters from the alphabet are then picked by the `modulo` operator. There's no modulo bias introduced as the carefully picked alphabet consists of exactly 32 characters.
 
