@@ -2,8 +2,8 @@ const { breezeid } = require('./breezeid')
 
 const ids = []
 
-for (let i = 0; i < 200000; i++) {
-	ids.push(breezeid(7))
+for (let i = 0; i < 500000; i++) {
+	ids.push(breezeid())
 }
 
 function hasDuplicates(array) {
