@@ -10,7 +10,7 @@
 Breeze ID is a library that generates unique IDs of any length meant to be easily communicated via speech, that contain no profanities and consist of unambigous characters that can be read easily. Breeze ID's goal is to eliminate human error and still be cryptographically secure.
 
 Breeze ID is best used wherever your IDs:
-- are exposed to end users (for example: public user IDs, error codes... Remember: no profanities!)
+- are exposed to end users (for example: promo codes, public user IDs, error codes... Remember: no profanities!)
 - need to be easily communicated via speech
 - need to be URL safe
 - need to be unique (you can increase the length to improve uniqueness)
